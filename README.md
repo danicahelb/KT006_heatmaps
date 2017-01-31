@@ -204,7 +204,7 @@ polygon(c(.4,.4,0.475), c(.1,.2,.2), border=F, col = color.palette[1])
 ```
 
 ####################################################################################################
-####legend for age
+###legend for age
 ```r
 plot.new()
 par(mar=c(0.25,0.5,1.5,2.5))
@@ -268,7 +268,7 @@ for(i in 1:nrow(data2[grep("X2", rownames(data2)),])){
 ```
 
 ####################################################################################################
-#(3) create the heatmap for APAC timepoint 3
+##(3) create the heatmap for APAC timepoint 3
 ```r
 par(mar=c(10,6,1,0.5))
 image(data2[grep("X3", rownames(data2)),], col=color.palette, xlab=NA, ylab=NA, 
